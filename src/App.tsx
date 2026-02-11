@@ -367,26 +367,6 @@ export default function App() {
 			)}
 
 			{/* Stats Banner */}
-			<div className="py-8 px-4" style={{ backgroundColor: 'var(--makeda-sand)' }}>
-				<div className="max-w-7xl mx-auto grid grid-cols-4 gap-8 text-center">
-					<div>
-						<p className="text-3xl mb-2" style={{ color: 'var(--makeda-green)' }}>{EXTENDED_PRODUCTS.length}+</p>
-						<p className="text-sm text-gray-600">Premium Products</p>
-					</div>
-					<div>
-						<p className="text-3xl mb-2" style={{ color: 'var(--makeda-green)' }}>7K+</p>
-						<p className="text-sm text-gray-600">Happy Customers</p>
-					</div>
-					<div>
-						<p className="text-3xl mb-2" style={{ color: 'var(--makeda-green)' }}>99.95%</p>
-						<p className="text-sm text-gray-600">Uptime SLA</p>
-					</div>
-					<div>
-						<p className="text-3xl mb-2" style={{ color: 'var(--makeda-green)' }}>100K+</p>
-						<p className="text-sm text-gray-600">Concurrent Users</p>
-					</div>
-				</div>
-			</div>
 
 			<ProductGrid
 				products={filteredProducts}
