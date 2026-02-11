@@ -496,7 +496,7 @@ export default function App() {
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="text-center">
 						<h3 className="text-2xl mb-4 font-serif" style={{ fontFamily: "'Playfair Display', serif", color: 'var(--makeda-green)' }}>
-							STYLE<span style={{ color: 'var(--makeda-gold)' }}>SPHERE</span>
+							MAKEDA<span style={{ color: 'var(--makeda-gold)' }}>THREADS</span>
 						</h3>
 						<p className="text-gray-600 mb-4">Enterprise-Grade Luxury African Fashion</p>
 						<p className="text-sm text-gray-500">© 2026 Makeda Threads. All rights reserved.</p>
